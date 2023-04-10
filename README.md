@@ -1,6 +1,6 @@
 # MicroCategory
 * .Net 6
-* Repositori
+* Repository
 * UniiOfWork
 * EntityFramework
 * DDD, CORS design pattern
