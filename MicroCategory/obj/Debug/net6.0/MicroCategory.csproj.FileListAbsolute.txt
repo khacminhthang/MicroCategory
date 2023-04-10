@@ -582,3 +582,15 @@ C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\obj\Debug\net6.0\refint\MicroCa
 C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\obj\Debug\net6.0\MicroCategory.pdb
 C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\obj\Debug\net6.0\MicroCategory.genruntimeconfig.cache
 C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\obj\Debug\net6.0\ref\MicroCategory.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\Logs\important-logs.json
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\libman.json
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\MediatR.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\Serilog.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\LENOVO\Desktop\Study\MicroCategory\MicroCategory\bin\Debug\net6.0\System.Threading.Channels.dll

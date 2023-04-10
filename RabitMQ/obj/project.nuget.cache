@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "r0cjpUoRiUwTyTkEfZi4uGpRSlFJZ3oDsdKqH1O9K7X/W3rlHkB3EoljSrnOuCNOtHzK5DYZmhmDTuMU9uSYcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Study\\MicroCategory\\RabitMQ\\RabitMQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

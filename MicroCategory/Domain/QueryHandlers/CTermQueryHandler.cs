@@ -6,6 +6,7 @@ using MicroCategory.Domain.Queries;
 using MicroCategory.Domain.Repositories.Interface;
 using MicroCategory.Domain.Common.Extension;
 using System.Dynamic;
+using MicroCategory.Domain.RabitMQ;
 
 namespace MicroCategory.Domain.QueryHandlers
 {
@@ -23,16 +24,20 @@ namespace MicroCategory.Domain.QueryHandlers
         private readonly ICTermRepository _cTermRepository;
         private readonly ICTermmetumRepository _cTermmetumRepository;
         private readonly IMapper _mapper;
+        private readonly IRabitMQTerm _rabitMQTerm;
 
         /// <summary>
         /// Contructor
         /// </summary>
         public CTermQueryHandler(ICTermRepository cTermRepository,
                                 IMapper mapper,
-                                ICTermmetumRepository cTermmetumRepository)
+                                ICTermmetumRepository cTermmetumRepository,
+                                IRabitMQTerm rabitMQTerm
+                                )
         {
             _cTermRepository = cTermRepository;
             _cTermmetumRepository = cTermmetumRepository;
+            _rabitMQTerm = rabitMQTerm;
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
@@ -72,6 +77,8 @@ namespace MicroCategory.Domain.QueryHandlers
                                                 query.Count(),
                                                 request.PageNumber,
                                                 request.PageSize);
+
+            _rabitMQTerm.SendProductMessage(data.List.First());
 
             return await Task.FromResult(data);
         }

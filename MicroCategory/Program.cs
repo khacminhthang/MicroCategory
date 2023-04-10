@@ -2,6 +2,7 @@ using MediatR;
 using MicroCategory.Application.MappingConfigurations;
 using MicroCategory.Domain.Models;
 using MicroCategory.Domain.Notification;
+using MicroCategory.Domain.RabitMQ;
 using MicroCategory.Domain.Repositories.Implement;
 using MicroCategory.Domain.Repositories.Interface;
 using MicroCategory.Domain.UnitOfWork;
@@ -28,7 +29,7 @@ builder.Services.AddScoped<ICTermRepository, CTermRepository>();
 builder.Services.AddScoped<ICTermmetumRepository, CTermmetumRepository>();
 builder.Services.AddScoped<IEventDispatcher, EventDispatcher>();
 builder.Services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
-
+builder.Services.AddScoped<IRabitMQTerm, RabitMQTerm>();
 builder.Services.AddControllers();
 
 // Auto Mapper
