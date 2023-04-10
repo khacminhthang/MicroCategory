@@ -1,0 +1,1 @@
+Scaffold-DbContext "Host=localhost;Port=5432;Database=Category;Username=postgres;Password=admin" Npgsql.EntityFrameworkCore.PostgreSQL -o Domain/Models -ContextDir Domain/Models -Context DatabaseContext -f

@@ -1,0 +1,20 @@
+-- Table: public.c_termmeta
+
+-- DROP TABLE IF EXISTS public.c_termmeta;
+
+CREATE TABLE IF NOT EXISTS public.c_termmeta
+(
+    id integer NOT NULL DEFAULT nextval('c_termmeta_id_seq'::regclass),
+    term_id bigint NOT NULL,
+    meta_key character varying(255) COLLATE pg_catalog."default" DEFAULT NULL::character varying,
+    meta_value text COLLATE pg_catalog."default",
+    created_at timestamp without time zone,
+    updated_at timestamp without time zone,
+    deleted_at smallint DEFAULT 0,
+    CONSTRAINT c_termmeta_pk PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.c_termmeta
+    OWNER to postgres;

@@ -1,0 +1,24 @@
+-- Table public.c_terms
+
+-- DROP TABLE IF EXISTS public.c_terms;
+
+CREATE TABLE IF NOT EXISTS public.c_terms
+(
+    id integer NOT NULL DEFAULT nextval('c_terms_id_seq'regclass),
+    name text COLLATE pg_catalog.default NOT NULL DEFAULT ''character varying,
+    slug character varying(200) COLLATE pg_catalog.default NOT NULL DEFAULT ''character varying,
+    type character varying(255) COLLATE pg_catalog.default,
+    code character varying(255) COLLATE pg_catalog.default,
+    description text COLLATE pg_catalog.default,
+    created_at timestamp without time zone,
+    updated_at timestamp without time zone,
+    deleted_at smallint DEFAULT 0,
+    app_code character varying(40) COLLATE pg_catalog.default,
+    site_id character varying(40) COLLATE pg_catalog.default,
+    CONSTRAINT c_terms_pk PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.c_terms
+    OWNER to postgres;
