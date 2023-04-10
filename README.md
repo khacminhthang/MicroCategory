@@ -1,8 +1,8 @@
 # MicroCategory
 * .Net 6
 * Repository
-* UniiOfWork
+* UnitOfWork
 * EntityFramework
-* DDD, CORS design pattern
+* DDD, CQRS design pattern
 
 * The term and term_meta table structures are used to manage multiple types of categories. This minimizes the need to create multiple tables and write extensive CRUD code.
