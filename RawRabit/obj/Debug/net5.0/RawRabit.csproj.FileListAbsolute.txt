@@ -1,0 +1,5 @@
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\RawRabit\obj\Debug\net5.0\RawRabit.csproj.AssemblyReference.cache
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\RawRabit\obj\Debug\net5.0\RawRabit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\RawRabit\obj\Debug\net5.0\RawRabit.AssemblyInfoInputs.cache
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\RawRabit\obj\Debug\net5.0\RawRabit.AssemblyInfo.cs
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\RawRabit\obj\Debug\net5.0\RawRabit.csproj.CoreCompileInputs.cache

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\Study\\MicroCategory\\MicroCategory\\MicroCategory.csproj": {}
+    "C:\\Users\\KHOIDONG.VN\\Desktop\\STUDY\\MicroCategory\\MicroCategory\\MicroCategory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\Study\\MicroCategory\\MicroCategory\\MicroCategory.csproj": {
+    "C:\\Users\\KHOIDONG.VN\\Desktop\\STUDY\\MicroCategory\\MicroCategory\\MicroCategory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Study\\MicroCategory\\MicroCategory\\MicroCategory.csproj",
+        "projectUniqueName": "C:\\Users\\KHOIDONG.VN\\Desktop\\STUDY\\MicroCategory\\MicroCategory\\MicroCategory.csproj",
         "projectName": "MicroCategory",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Study\\MicroCategory\\MicroCategory\\MicroCategory.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Study\\MicroCategory\\MicroCategory\\obj\\",
+        "projectPath": "C:\\Users\\KHOIDONG.VN\\Desktop\\STUDY\\MicroCategory\\MicroCategory\\MicroCategory.csproj",
+        "packagesPath": "C:\\Users\\KHOIDONG.VN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KHOIDONG.VN\\Desktop\\STUDY\\MicroCategory\\MicroCategory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KHOIDONG.VN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,7 +115,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -127,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

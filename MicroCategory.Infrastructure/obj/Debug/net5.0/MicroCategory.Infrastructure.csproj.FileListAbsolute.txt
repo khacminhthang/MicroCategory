@@ -1,0 +1,5 @@
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\MicroCategory.Infrastructure\obj\Debug\net5.0\MicroCategory.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\MicroCategory.Infrastructure\obj\Debug\net5.0\MicroCategory.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\MicroCategory.Infrastructure\obj\Debug\net5.0\MicroCategory.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\MicroCategory.Infrastructure\obj\Debug\net5.0\MicroCategory.Infrastructure.AssemblyInfo.cs
+C:\Users\KHOIDONG.VN\Desktop\STUDY\MicroCategory\MicroCategory.Infrastructure\obj\Debug\net5.0\MicroCategory.Infrastructure.csproj.CoreCompileInputs.cache

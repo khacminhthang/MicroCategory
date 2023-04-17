@@ -76,10 +76,11 @@ namespace MicroCategory.Domain.CommandHandlers
                                 MetaValue = item.MetaValue,
                             };
                             _cTermmetumRepository.Insert(cTermmetum);
+                            await _unitOfWork.Commit();
                         }
                     }
-
                     await _unitOfWork.Commit();
+                    await transaction.CommitAsync();
                 }
                 catch (Exception ex)
                 {
@@ -129,13 +130,15 @@ namespace MicroCategory.Domain.CommandHandlers
                             }
                         }
                         _cTermmetumRepository.UpdateRange(termMetas);
+                        await _unitOfWork.Commit();
                     }
 
                     cterm.DeletedAt = 1;
                     cterm.UpdatedAt = DateTime.Now;
                     _cTermRepository.Update(cterm);
-
                     await _unitOfWork.Commit();
+
+                    await transaction.CommitAsync();
                 }
                 catch (Exception ex)
                 {
@@ -173,6 +176,7 @@ namespace MicroCategory.Domain.CommandHandlers
                     if (request.Type is not null) cterm.Type = request.Type;
                     if (request.Name is not null) cterm.Name = request.Name;
                     _cTermRepository.Update(cterm);
+                    await _unitOfWork.Commit();
 
                     if (request.TermMetas is not null)
                     {
@@ -190,8 +194,10 @@ namespace MicroCategory.Domain.CommandHandlers
                             }
                         }
                         _cTermmetumRepository.UpdateRange(termMetas);
+                        await _unitOfWork.Commit();
                     }
                     await _unitOfWork.Commit();
+                    await transaction.CommitAsync();
                 }
                 catch (Exception ex)
                 {
